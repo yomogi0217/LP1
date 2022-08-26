@@ -352,6 +352,31 @@ h1 {
   font-size: 45px;
 }
 
+.map-frame {
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+.map-left, .map-right {
+  width: 40%;
+}
+
+h3 {
+  font-size: 25px;
+  margin-bottom: 30px;
+  padding-left: 10px;
+  border-left: solid #E38B73 5px;
+}
+
+.access th {
+  text-align: left;
+}
+
+.access td {
+  padding-left: 20px;
+}
+
 /* .frame_profile {
   display: inline-table;
   width: 35%;
