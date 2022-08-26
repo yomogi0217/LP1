@@ -352,6 +352,19 @@ h1 {
   font-size: 45px;
 }
 
+.store {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.store img {
+  width: 40%;
+}
+
+.store p {
+  margin-bottom: 70px;
+}
+
 .map-frame {
   display: flex;
   margin: 0 auto;
