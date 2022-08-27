@@ -5,13 +5,14 @@ html {
 }
 
 body {
-  font-size: 15px;
+  font-size: 17px;
   line-height: 1.8;
   letter-spacing: 1px;
   word-break: break-all;
   color: #333;
   background-color: #fff;
   height: 100%;
+  font-family: serif;
 }
 
 a {
@@ -44,6 +45,10 @@ li {
   display: table-cell;
 }
 
+.header_all .inner {
+  max-width: 1200px;
+}
+
 .header_nav ul li a {
   display: block;
   margin: 25px;
@@ -55,6 +60,7 @@ li {
 .header_nav ul li a:hover {
   color: #888;
   border: solid 1px #ccc; 
+  border-radius: 20px;
 }
 
 .header_nav ul li a span {
@@ -69,7 +75,7 @@ li {
   text-align: center;
   font-size: 40px;
   width: 300px;
-  margin: 70px 0 0 0;
+  margin: -10px 0 0 0;
   z-index: 4;
   border-radius: 50px;
   left: 50%;
@@ -98,7 +104,7 @@ h1 {
   z-index: 1;
   width: 100%;
   height: 100%;
-  background-color: rgba(255, 255, 255, 0.25);
+  background-color: rgba(255, 255, 255, 0.36);
 } 
 
 .top_inner {
@@ -113,7 +119,10 @@ h1 {
 .top_inner p {
   font-size: 20px;
   font-weight: 700;
-  color: #333;
+  color: #666;
+  background-color: rgba(243, 220, 182, 0.8);
+  border-radius: 20px;
+  padding: 10px;
 }
 
 .section {
@@ -186,6 +195,11 @@ h1 {
   width: 100%;
 }
 
+.circle-inner h3 {
+  border: 0;
+  padding: 0;
+}
+
 .circle-inner:nth-child(1) {
   margin: 0% 0% 0% 10%;
   width: 100%;
@@ -212,7 +226,7 @@ h1 {
   height: 100%;
 } */
 
-.concept_img {
+/* .concept_img {
   position: relative;
 }
 
@@ -225,8 +239,8 @@ h1 {
   left: 50%;
   width: 50%;
   height: 100%;
-}
-
+} */
+/* 
 .descript {
   margin-left: 60%;
 }
@@ -234,7 +248,7 @@ h1 {
 .descript_left {
   width: 40%;
   height: 50%;
-}
+} */
 
 .title {
   display: block;
@@ -270,9 +284,9 @@ h1 {
 } */
 
 .frame {
-  display: inline-table;
+  display: flex;
   width: 90%;
-  height: 100%;
+  height: 390px;
   background-color: #fff;
   border-radius: 5px;
   margin: 30px;
@@ -281,9 +295,11 @@ h1 {
 }
 
 .txt_content {
-  display: inline-table;
+  display: inline-block;
   width: 50%;
   padding: 30px;
+  position: relative;
+  top: -80px; 
 }
 
 .frame h3 {
@@ -319,9 +335,9 @@ h1 {
 } */
 
 .photo_content {
-  display: inline-table;
+  display: inline-block;
   width: 30%;
-  margin: 50px 15px 15px 70px;
+  margin: 10px 15px 15px 70px;
 }
 
 .photo {
@@ -332,6 +348,8 @@ h1 {
   display: inline-table;
   width: 30%;
   padding: 10px;
+  position: relative;
+  top: -70px;
 }
 
 .price {
@@ -350,6 +368,44 @@ h1 {
 .price em {
   font-style: normal;
   font-size: 45px;
+}
+
+.product-block {
+  display: flex;
+}
+
+.product-left {
+  width: 60%;
+}
+
+.product-left h3 {
+  margin-bottom: 20px;
+}
+
+.product-left p {
+  font-size: 25px;
+}
+
+.product-left span {
+  font-size: 20px;
+}
+
+.product-right img{
+  width: 40%;
+}
+
+.purchase-btn a{
+  display: block;
+  background-color: #F1C5B8;
+  margin: 10px 40px 0 0;
+  width: 150px;
+  padding: 10px;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.purchase-btn a:hover {
+  background-color: #E38B73;
 }
 
 .store {
