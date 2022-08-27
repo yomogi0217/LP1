@@ -370,9 +370,14 @@ h1 {
   font-size: 45px;
 }
 
+.product-wrap {
+  display: block;
+  margin: 0 auto;
+}
+
 .product-block {
   display: flex;
-  margin: 0 0 0 15%;
+  /* margin: 0 0 0 15%; */
   flex-wrap: wrap;
   justify-content: center;
 }
@@ -385,19 +390,25 @@ h1 {
 }
 
 .product-left {
-  width: 60%;
+  width: 40%;
+  margin: 0 auto;
 }
 
 .product-left h3 {
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 
 .product-left p {
   font-size: 25px;
+  margin-left: 10px;
 }
 
 .product-left span {
   font-size: 20px;
+}
+
+.product-right {
+  width: 40%;
 }
 
 .product-right img{
