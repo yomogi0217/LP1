@@ -372,6 +372,16 @@ h1 {
 
 .product-block {
   display: flex;
+  margin: 0 0 0 15%;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.product-inner {
+  display: flex;
+  margin: 0 auto;
+  width: 50%;
+  margin-bottom: 50px;
 }
 
 .product-left {
@@ -391,7 +401,7 @@ h1 {
 }
 
 .product-right img{
-  width: 40%;
+  width: 60%;
 }
 
 .purchase-btn a{
